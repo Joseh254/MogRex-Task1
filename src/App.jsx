@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import DashboardLayout from './COMPONENTS/DashboardLayout/DashboardLayout.JSX'
+import UserAcquisition from './COMPONENTS/UserAcquisition/UserAcquisition'
+import TransactionVolume from './COMPONENTS/TransactionVolume/TransactionVolume'
+import MerchantAcquisition from './COMPONENTS/MerchantAcquisition/MerchantAcquisition'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
