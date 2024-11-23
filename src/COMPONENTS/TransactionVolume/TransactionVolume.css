@@ -1,0 +1,7 @@
+.transactionComponent{
+
+    flex: 1;
+     min-width: 300px;
+      border: 1px solid #ccc;
+       padding: 20px
+    }

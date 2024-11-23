@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import './UserAcquisition.css'
 function UserAcquisition () {
   const [filter, setFilter] = useState("daily");
   const [data, setData] = useState([]);
