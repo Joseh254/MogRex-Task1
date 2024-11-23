@@ -9,7 +9,7 @@ function UserAcquisition () {
       const result = {
         daily: [10, 20, 15,30],
         weekly: [100, 120, 150,200],
-        monthly: [400, 500, 600,100],
+        monthly: [400, 500, 600,1000],
       };
       setData(result[filter]);
     };
@@ -18,6 +18,13 @@ function UserAcquisition () {
 
   function handleChange(event){
 setFilter(event.target.value)
+  }
+  function dataset(current,i){
+    return(
+      <li key={i}>
+        Day {i+1}:{current}users
+      </li>
+    )
   }
 
   return (
@@ -31,11 +38,7 @@ setFilter(event.target.value)
         </select>
       </div>
       <ul>
-        {data.map((item, i) => (
-          <li key={i}>
-            Day {i + 1}: {item} users
-          </li>
-        ))}
+        {data.map(dataset)}
       </ul>
     </div>
   );
