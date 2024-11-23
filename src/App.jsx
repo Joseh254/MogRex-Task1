@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-     <h1>task 1</h1>
+     <DashboardLayout>
+      <UserAcquisition />
+      <TransactionVolume />
+      <MerchantAcquisition />
+    </DashboardLayout>
     </>
   )
 }
