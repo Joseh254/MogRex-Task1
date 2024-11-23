@@ -10,9 +10,9 @@ function MerchantAcquisition(){
     <div className="marchantsComponent">
       <h2>Merchant Acquisition</h2>
       <ul>
-        {merchants.map((merchant, i) => (
+        {merchants.map((current, i) => (
           <li key={i}>
-            <strong>{merchant.name}</strong>: :{merchant.engagement} engagement, {merchant.acquisitions} acquisitions
+            <strong>{current.name}</strong>: :{current.engagement} engagement, {current.acquisitions} acquisitions
           </li>
         ))}
       </ul>
