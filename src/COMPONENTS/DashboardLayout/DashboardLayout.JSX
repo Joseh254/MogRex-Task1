@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import './DashboardLayout.css'
 
-function DashboardLayout() {
-  return (
-    <div>DashboardLayout</div>
-  )
-}
+const DashboardLayout = ({ children }) => (
+  <div className="dashboardComponent">
+    <header className="dashboardHeader">
+      <h1>Dashboard</h1>
+    </header>
+    <main className="dashboardmain">
+      {children}
+    </main>
+  </div>
+);
 
-export default DashboardLayout
+export default DashboardLayout;

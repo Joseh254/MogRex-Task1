@@ -1,0 +1,13 @@
+.dashboardComponent{
+    padding: 20px;
+    font-family: Arial,sans-serif;
+}
+.dashboardHeade{
+     margin-bottom: 20px;
+}
+.dashboardmain{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;  
+    
+} 
